@@ -95,7 +95,7 @@ function searchproduct(term) {
         if (productsContainer[i].name.includes(term)) {
             temp += `<tr><td></td><td> `
                 + productsContainer[i].name + `</td><td>` + productsContainer[i].price +
-                `</td><td>` + productsContainer[i].quntity + `</td><td> x </td></tr>
+                `</td><td>` + productsContainer[i].quntity + `</td><td>`+productsContainer[i].quntity *productsContainer[i].price+` </td></tr>
 `;
             
                
